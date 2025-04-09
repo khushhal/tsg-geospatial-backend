@@ -14,8 +14,24 @@ Follow the steps below to set up the project from scratch:
 git clone https://github.com/your-username/turl_street_group_assignment.git
 cd turl_street_group_assignment
 ```
+### 2. 🛠️ Create and Configure Your Environment
 
-### 2. 📦 Download Required Geospatial Data
+Make sure you create a new .env file by copying from .env.example:
+
+```bash
+cp .env.example .env
+```
+Then, edit the .env file and make sure to update the following:
+```bash
+CENSUS_API_KEY=your_api_key_here
+```
+To get a new Census API key, visit:
+👉 https://api.census.gov/data/key_signup.html
+
+Make sure you created new file .env and copied the content from .env.example and also update this
+CENSUS_API_KEY to get the new api key go to this url
+
+### 3. 📦 Download Required Geospatial Data
 Download the shapefile data from the following Google Drive link:
 
 👉 [Download Data Folder](https://drive.google.com/drive/folders/14krFfDOzba53SzEgsCyXrSHO1PBlbVKW?usp=drive_link)
@@ -31,7 +47,7 @@ mkdir data
 # Move downloaded files into this folder
 ```
 
-### 3. 🐳 Start Docker Compose
+### 4. 🐳 Start Docker Compose
 ```bash
 docker compose up --build
 ```
