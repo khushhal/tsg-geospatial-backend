@@ -97,3 +97,7 @@ You can now open the frontend and start using the application!
 ## 📬 Questions?
 Feel free to raise an issue or reach out to the maintainer.
 
+## Demo
+
+Check out the full demo video here:  
+🎥 [Watch on Loom](https://www.loom.com/share/8940b85d639c461ab6d9621735bdabc0?sid=ec68e97a-131d-43a3-a86f-0db4a082d853)
